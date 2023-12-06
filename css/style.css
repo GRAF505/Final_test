@@ -1,0 +1,337 @@
+body {
+	font-family: Tahoma;
+	font-size: 14px;
+	padding: 0px;
+	margin: 0px;
+}
+
+.box_banner {
+	margin-right: 20px;
+}
+
+.banner {
+	max-inline-size: 100%;
+	block-size: auto;
+	object-fit: cover;
+	object-position: top center;
+}
+
+
+a {
+	color: #ee1d23;
+}
+
+p {
+	padding: 0px;
+	margin: 0px 0px 30px 0px;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+h1 {
+	font-family: Dinpro;
+	padding: 30px 0px 0px 0px;
+	margin: 0px;
+	margin-bottom: 30px;
+	font-weight: normal;
+	font-size: 34px;
+	text-align: center;
+	margin-top: 40px;
+}
+
+h2 {
+	font-family: Dinpro;
+	padding: 0px;
+	margin: 0px;
+	margin-bottom: 30px;
+	margin-bottom: 30px;
+	font-weight: normal;
+	font-size: 32px;
+	text-align: center;
+}
+
+.c_title {
+	text-align: left;
+	padding-left: 30px;
+
+}
+
+.m_s {
+	margin-bottom: 30px;
+}
+
+
+
+div.center_wrapper:after,
+div.basket_up_wrapper:after,
+div.header,
+div.up_line:after,
+.catalog:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+p {
+	margin: 0px;
+	padding-bottom: 10px;
+}
+
+.center_wrapper {
+	/*width:100%;
+	max-width:1300px;
+	min-width:1050px;*/
+	width: 1300px;
+	margin: 0px auto;
+}
+
+/*header*/
+
+.header {
+	padding-top: 20px;
+}
+
+
+/*menu wrapper*/
+
+.togo {
+	padding: 5px 0px 0px 0px;
+	border-bottom: solid 3px rgba(0, 0, 0, .05);
+	width: 100%;
+	background-color: #FFF;
+
+
+}
+
+
+
+
+.menu {
+	display: flex;
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+
+.menu-item {
+	margin: 0px;
+	color: red;
+}
+
+.menu a {
+	padding: 15px 20px 10px 20px;
+	display: block;
+	color: #000000;
+	text-decoration: none;
+	transition: .2s ease-in-out;
+}
+
+.menu li a:hover {
+	color: #ee1d23;
+}
+
+.menu li a:first-child {
+	padding-left: 0px;
+}
+
+.menu-item:last-child {
+	margin-right: 0;
+}
+
+.menuWrapper {
+	overflow: hidden;
+	float: left;
+	position: relative;
+}
+
+
+
+.basket_up_wrapper {
+	width: 180px;
+	float: right;
+	margin-top: 7px;
+}
+
+.basket_up_wrapper ul {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	float: left;
+}
+
+a.go_in_basket {
+	background-color: #ee1d23;
+	font-size: 12px;
+	border-radius: 5px;
+	display: block;
+	padding: 0px 25px;
+	text-decoration: none;
+	color: rgba(255, 255, 255, 1);
+	float: right;
+	line-height: 34px;
+	transition: .2s ease-in-out;
+	border: solid 1px #ee1d23;
+}
+
+
+/* slider */
+
+.slider_wrapper {
+	background-color: rgba(0, 0, 0, .03);
+	height: 605px;
+	margin-bottom: 75px;
+}
+
+.work_wrapper {
+	padding-bottom: 40px;
+	margin-top: -20px;
+}
+
+
+
+/*catalog*/
+
+.catalog {
+	margin-bottom: 50px;
+}
+
+.good_main {
+	float: left;
+	padding: 0px 10px 0px 10px;
+	margin-bottom: 30px;
+	width: 23%;
+	padding: 0px 1%;
+	display: inline-block;
+	transition: .2s ease-in-out;
+}
+
+.good_main .title_line {
+	text-align: center;
+	margin-bottom: 12px;
+	height: 25px;
+}
+
+
+.good_main .img {
+	margin-bottom: 5px;
+	position: relative;
+}
+
+
+.good_main .title {
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 14px;
+}
+
+.good_main .info {
+	font-size: 13px;
+	color: rgba(0, 0, 0, .8);
+	text-align: justify;
+	line-height: 18px;
+	height: 70px;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+
+.good_main .add,
+.add_promocode {
+	float: right;
+	line-height: 30px;
+	text-align: center;
+	width: 50%;
+	border: solid 1px #ee1d23;
+	border-radius: 5px;
+	color: #ee1d23;
+	cursor: pointer;
+	transition: .2s ease-in-out;
+	text-decoration: none;
+}
+
+.good_main .add:hover,
+.add_promocode:hover {
+	color: #000;
+}
+
+
+
+
+/*  footer */
+
+.footer {
+	background-color: #242424;
+	padding: 20px 0px;
+}
+
+
+.footer ul {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	margin-right: 70px;
+	float: left;
+	width: auto;
+}
+
+
+.footer ul:first-child {
+	margin-left: 170px;
+}
+
+.footer ul li {
+	float: none;
+	display: block;
+	color: #FFF;
+	margin-bottom: 10px;
+}
+
+.footer ul li a {
+	color: rgba(255, 255, 255, .7);
+}
+
+.footer ul li a:hover {
+	color: rgba(255, 255, 255, .9);
+}
+
+.footer .soc_ico {
+	float: right;
+	margin-top: 20px;
+}
+
+
+
+/*promocode*/
+
+.promocode_wrapper {
+	width: 305px;
+	margin: 0px auto;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.promocode_wrapper input {
+	padding: 0px;
+	padding-left: 20px;
+	width: 190px;
+	float: left;
+	border-radius: 0px;
+	margin: 0px;
+	border: solid 1px rgba(0, 0, 0, .1);
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	color: rgba(0, 0, 0, .8);
+	font-weight: bold;
+	line-height: 35px;
+}
+
+.promocode_wrapper .add_promocode {
+	width: 90px;
+	line-height: 35px;
+	float: right;
+	border-radius: 0px;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
